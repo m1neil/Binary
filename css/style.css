@@ -148,16 +148,32 @@ h6 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   color: #fff;
+  padding: 20px 0px;
 }
 .fullscreen__logo {
   max-width: 195px;
   align-self: center;
-  margin: 0px 0px 160px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .fullscreen__logo img {
   max-width: 100%;
+}
+.fullscreen__text {
+  position: relative;
+  padding: 0px 0px 50px 0px;
+  margin: 0px 0px 20px 0px;
+}
+.fullscreen__text::after {
+  content: "";
+  position: absolute;
+  width: 105px;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
 }
 .fullscreen__title {
   font-size: 34px;
@@ -170,23 +186,10 @@ h6 {
 .fullscreen__subtitle {
   font-size: 26px;
   letter-spacing: 4.16px;
-  position: relative;
-  padding: 0px 0px 50px 0px;
-  margin: 0px 0px 225px 0px;
-}
-.fullscreen__subtitle::after {
-  content: "";
-  position: absolute;
-  width: 105px;
-  height: 2px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #fff;
 }
 .fullscreen__btn {
   align-self: center;
-  margin: 0px 0px 75px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .fullscreen__arrow {
   align-self: center;

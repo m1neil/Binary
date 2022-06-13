@@ -1,0 +1,17 @@
+.btn {
+   display: inline-block;
+   padding: 0 41px;
+   height: 47px;
+   line-height: 47px;
+   font-size: 15.5px;
+   letter-spacing: 0.93px;
+   border: 1px solid transparent;
+
+   &_white {
+      border-color: #fff;
+      color: #fff;
+      &:visited {
+         color: #fff;
+      }
+   }
+}
